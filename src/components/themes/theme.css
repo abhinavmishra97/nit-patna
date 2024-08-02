@@ -1,0 +1,52 @@
+.theme-container{
+    border: 1px solid purple;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.theme-inner{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.themes{
+    margin: 20px 0;
+    /* border: 2px solid blueviolet; */
+    width: 70%;
+    padding: 0 80px ;
+}
+
+.themes h1{
+    margin: 0 0 10px 0;
+    text-align: center;
+}
+
+.venue{
+    height: 350px;
+    margin: 20px 0;
+    border: 3px solid brown;
+    width: 350px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.theme-list{
+    list-style-type: circle;
+}
+
+.location {
+    font-weight: 500;
+    font-size: 20px;
+    text-align: left;
+    display: flex;
+    padding: 20px;
+    gap: 30px;
+
+}
