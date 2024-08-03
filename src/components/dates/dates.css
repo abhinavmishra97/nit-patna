@@ -27,3 +27,10 @@
 .odd-tr{
     background-color: blanchedalmond;
 }
+
+@media (max-width: 480px) {
+    .dates-container td{
+        height: 80px;
+        padding: 0 10px;
+    }
+}

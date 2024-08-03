@@ -6,10 +6,11 @@ import Theme from './components/themes/Theme'
 import Dates from './components/dates/Dates'
 import Committee from './components/committee/Committee'
 import Fees from './components/fees/Fees'
+import './App.css'
 
 const App = () => {
   return (
-    <div>
+    <div className='app'>
       <Navbar />
       <Home />
       <About />

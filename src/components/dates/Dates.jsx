@@ -3,9 +3,10 @@ import './dates.css'
 
 const Dates = () => {
   return (
-    <div className="dates-container">
+    <div className="dates-container" id="dates-sec">
       <h1 className="date-heading">Important Dates:</h1>
-      <table className="dates">
+          <table className="dates">
+              <tbody>                  
         <tr className="odd-tr">
           <td>Abstracts Submission Deadline</td>
           <td className="second-td">November 30, 2024</td>
@@ -31,6 +32,7 @@ const Dates = () => {
           <td>Conference Dates</td>
           <td className="second-td">December 28-29, 2025</td>
         </tr>
+              </tbody>
       </table>
     </div>
   );

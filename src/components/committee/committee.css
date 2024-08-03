@@ -47,3 +47,30 @@
     background-color: blanchedalmond;
     width: 100%;
 }
+
+@media (max-width: 480px) {
+    .conv{
+        flex-wrap: wrap;
+    }
+
+    .inner-comm{
+        flex-direction: column;
+        width: 100%;
+        padding: 0 20px;
+        text-align: center;
+    }
+    .inner-comm h2{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    #patron-content{
+        margin-bottom: 30px;
+    }
+    .conv-desc {
+        width: 300px;
+        margin: auto;
+    }
+    .organising-comm li{
+        padding: 10px;
+    }
+}

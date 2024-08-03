@@ -1,5 +1,5 @@
 .theme-container{
-    border: 1px solid purple;
+    /* border: 1px solid purple; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -51,4 +51,22 @@
     padding: 20px;
     gap: 30px;
 
+}
+
+@media ( max-width: 480px) {
+    .theme-inner{
+        flex-direction: column;
+    }
+    .themes {
+        margin: 20px 0;
+        /* border: 2px solid blueviolet; */
+        width: 100%;
+        padding: 0;
+    }
+    .themes h1{
+        width: 100vw;
+        padding: 0;
+        margin: 10px 0;
+        font-size: 28px;
+    }
 }

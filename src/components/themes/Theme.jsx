@@ -4,8 +4,10 @@ import location from "../../images/location.png";
 
 const Theme = () => {
   return (
-    <div className="theme-container">
+    <div className="theme-container" id="theme-sec">
       <h1>Call for paper: Religious architecture</h1>
+      <br />
+
       <div className="theme-inner">
         <div className="themes">
           <h1>Theme of the conference</h1>
@@ -46,16 +48,16 @@ const Theme = () => {
             <li>Vernacular Religious Architecture</li>
           </ul>
         </div>
-        <div className="venue">
+        <div className="venue" id="venue-sec">
           <h1>Venue</h1>
           <p className="location">
             <img src={location} alt="location" style={{ height: "45px" }}></img>
-            <p>National Institute of Technology Patna, <br /> Ashok Rajpath,
-            <br /> Patna-800005,
-            <br />
-            Bihar, India
-                      </p>
-           
+            <p>
+              National Institute of Technology Patna, <br /> Ashok Rajpath,
+              <br /> Patna-800005,
+              <br />
+              Bihar, India
+            </p>
           </p>
         </div>
       </div>

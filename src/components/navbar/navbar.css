@@ -32,15 +32,82 @@ img{
 }
 
 .navbar-list{
-    height: 30px;
+    height: 50px;
     background-color:rgb(214, 168, 99);
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     padding: 4px 0px;
+    cursor: pointer;
 }
 
+
 .list1{
-    text-decoration: none;
     list-style-type: none;
+}
+
+.navbar-list a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 19px;
+    font-weight: 500;
+    position: relative;
+    padding: 5px;
+    transition: 0.5s;
+    text-shadow: 2px 2px 3px brown;
+}
+
+/* .navbar-list a:after {
+    content: "";
+    position: absolute;
+    background-color: brown;
+    height: 3px;
+    width: 0;
+    bottom: 0;
+    left: -5px;
+    text-align: center;
+    box-shadow: 1px 1px 3px white;
+    transition: 0.3s;
+} */
+
+.navbar-list a:hover{
+    color: rgba(123, 42, 42, 0.903);
+    text-shadow: 2px 2px 3px white;
+}
+/* .navbar-list a:hover::after {
+    width: 110%;
+} */
+
+.mobile-navbar{
+    display: none;
+}
+
+@media (max-width: 480px) {
+    .navbar{
+        display: none;
+    }
+
+    .mobile-navbar {
+        display: block;
+        max-width: 100vw;
+        padding: 10px;
+    }
+    .container-mobile {
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 0;
+    }
+    .container-mobile img{
+        height: 7rem;
+    }
+    .mob-nav-heading{
+        font-size: 15px;
+    }
+    .event-name-mob{
+        text-align: center;
+        
+    }
+
+
 }
