@@ -1,0 +1,29 @@
+.dates-container{
+    margin: 30px auto;
+    width: 100%;
+}
+
+.date-heading{
+    text-align: center;
+}
+
+.dates-container td {
+    /* border: 1px solid black; */
+    width: 50%;
+    height: 50px;
+    padding: 0 15px;
+    font-weight: 500;
+}
+
+.dates{
+    width: 90%;
+    margin: 30px auto;
+}
+
+.second-td{
+    text-align: end;
+}
+
+.odd-tr{
+    background-color: blanchedalmond;
+}

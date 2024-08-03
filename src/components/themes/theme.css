@@ -35,6 +35,8 @@
     text-align: center;
     align-items: center;
     justify-content: center;
+    background-color: blanchedalmond;
+    box-shadow: 8px 8px 10px rgba(113, 31, 4, 0.664);
 }
 
 .theme-list{

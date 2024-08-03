@@ -1,0 +1,29 @@
+.fees-container {
+    margin: 30px auto;
+    width: 100%;
+}
+
+.fees-heading {
+    text-align: center;
+}
+
+.fees-container td {
+    /* border: 1px solid black; */
+    width: 50%;
+    height: 40px;
+    padding: 5PX 15px;
+    font-weight: 500;
+}
+
+.fees {
+    width: 60%;
+    margin: 30px auto;
+}
+
+.second-td {
+    text-align: end;
+}
+
+.odd-tr {
+    background-color: blanchedalmond;
+}
