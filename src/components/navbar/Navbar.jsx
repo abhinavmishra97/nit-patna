@@ -8,19 +8,19 @@ const Navbar = () => {
       <div className="navbar">
         <div className="main-container">
           <div className="container">
-            <h3>राष्ट्रीय प्रौद्योगिकी संस्थान पटना</h3>
-            <h2>
+            <h2>राष्ट्रीय प्रौद्योगिकी संस्थान पटना</h2>
+            <h1>
               National Institute of Technology
               <br />
               Patna, India
-            </h2>
+            </h1>
           </div>
+          <img src={nitpatnalogo} id="nitlogo" alt="nit-patna"></img>
           <div className="event-name">
-            <h2>International Conference on Religious Architecture</h2>
-            <h3>December 28-29, 2024 </h3>
-            <h3>HYBRID MODE</h3>
+            <h1>International Conference on <br/>Religious Architecture</h1>
+            <h2>December 28-29, 2024 </h2>
+            <h2>HYBRID MODE</h2>
           </div>
-          <img src={nitpatnalogo} alt="nit-patna"></img>
         </div>
         <ul className="navbar-list">
           <li className="list1">
